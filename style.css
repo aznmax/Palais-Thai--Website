@@ -129,3 +129,66 @@ section .buttonMenu {
 }
 
 
+@media screen and (max-width: 428px){
+
+
+    /* Responsive mobile */
+
+/* Navigation */
+
+header nav{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+header nav ul {
+    margin:0;
+    padding:0;
+    margin-top:25px
+   
+}
+
+header nav ul li{
+   margin:0px;
+   margin-left:15px;
+   font-size:25px;
+}
+
+
+/* Logo Restaurant */
+
+header nav .logoHeaderRestaurant  {
+    width: 35%;
+    margin-top: 50px;
+}
+
+
+/* Section titre Restaurants */
+
+section .titreRestaurant{
+    font-size:30px;
+    max-width:300px;
+    display:block;
+    margin:auto;
+    margin-top:60px;
+    text-align:center;
+}
+
+/* Section Bannière */
+
+ section .banner img {
+    width: 100%;
+}
+
+/* Section Information Restaurants */
+
+.InformationRestaurant {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+}
