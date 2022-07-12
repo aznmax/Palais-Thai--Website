@@ -1,0 +1,31 @@
+/* Titre plat Restaurant */
+
+section h1{
+    display: block;
+    text-align:center;
+    font-size:60px;
+    color:crimson;
+    font-family:"Work Sans", sans-serif;
+}
+
+
+/* Galerie Plat Restaurant */
+
+section .galeriePlatRestaurant{
+ display:grid;
+ grid-template-columns: repeat(3,1fr);
+ gap:20px;
+ align-items:center;
+ margin-top:150px
+ 
+
+ 
+
+}
+section .galeriePlatRestaurant img{
+    display:block;
+    width: 100%;
+    margin:0px;
+    padding:0px;
+  
+}
