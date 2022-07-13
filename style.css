@@ -110,6 +110,15 @@ section .buttonMenu {
     font-weight: bolder;
 }
 
+/* Logo Instagram */
+
+.InformationRestaurant .coordonées .instagramContact  {
+    width:20%;
+    display:block;
+    margin:auto;
+    margin-top:40px;
+}
+
 /* Section Localisation Restaurants */
 
 .localisationRestaurant h2 {
@@ -207,6 +216,15 @@ section .buttonMenu {
         justify-content: center;
         align-items: center;
     }
+
+    /* Section Instagram */
+
+    .InformationRestaurant .coordonées .instagramContact  {
+        width:30%;
+        display:block;
+        margin:auto;
+        margin-top:40px;
+    }
  
 /* Section Coordonées */
     
@@ -258,6 +276,8 @@ section .buttonMenu {
         margin:0px;
         padding:0px;
     }
+
+   
 
     /* Section Google Maps */
 
