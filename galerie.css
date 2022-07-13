@@ -40,4 +40,11 @@ section .galeriePlatRestaurant img {
         align-items: center;
         margin-top: 60px;
     }
+
+    section .galeriePlatRestaurant img{
+        width:70%;
+        display:block;
+        margin:auto;
+        
+    }
 }
