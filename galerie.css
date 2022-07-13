@@ -43,7 +43,7 @@ section .galeriePlatRestaurant img {
     }
 
     section .galeriePlatRestaurant img{
-        width:70%;
+        width:100%;
         display:block;
         margin:auto;
         
