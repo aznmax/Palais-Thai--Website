@@ -34,13 +34,13 @@ header nav ul li {
     margin-top: 60px;
     margin-left: 30px;
     font-size: 25px;
-    cursor:pointer;
+    cursor: pointer;
     font-family: "Work Sans", sans-serif;
 }
 
-header nav ul li:hover{
-    color:crimson;
-    opacity:1;
+header nav ul li:hover {
+    color: crimson;
+    opacity: 1;
 }
 
 /* Section titre Restaurants */
@@ -85,7 +85,7 @@ section .buttonMenu {
 .InformationRestaurant {
     display: flex;
     justify-content: space-around;
-    align-items:center;
+    align-items: center;
     margin-top: 100px;
 }
 
@@ -94,8 +94,20 @@ section .buttonMenu {
 }
 
 .InformationRestaurant .coordonées h2 {
-    font-family: "Work Sans", sans-serif;
     color: crimson;
+    font-size: 30px;
+}
+.InformationRestaurant .coordonées h3 {
+    color: black;
+    margin: 0px;
+    font-size: 30px;
+}
+
+.InformationRestaurant .coordonées span {
+    display: block;
+    font-size: 30px;
+    margin-top: 20px;
+    font-weight: bolder;
 }
 
 /* Section Localisation Restaurants */
@@ -104,12 +116,21 @@ section .buttonMenu {
     text-align: center;
     font-family: "Work Sans", sans-serif;
     color: crimson;
+    
 }
 
-/* Section Horaire Restaurants */
+/* Section Horaire et téléphone Restaurants */
 
+.InformationRestaurant .horaires h2 {
+    font-size: 30px;
+    margin:0px;
+    margin-top:25px;
+    font-weight: bolder;
+}
 .InformationRestaurant .horaires p {
-    font-size: 20px;
+    font-size: 30px;
+    margin:0px;
+    margin-top:20px;
     font-weight: bolder;
 }
 
@@ -121,74 +142,142 @@ section .buttonMenu {
 }
 
 .adresseRestaurant span {
-    font-size: 20px;
+    font-size: 30px;
+    font-weight: bolder;
 }
 
 .adresseRestaurant p {
-    font-size: 20px;
+    font-size: 30px;
+    font-weight: bolder;
 }
 
-
-@media screen and (max-width: 428px){
-
-
+@media screen and (max-width: 428px) {
     /* Responsive mobile */
 
-/* Navigation */
+    /* Navigation */
 
-header nav{
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
+    header nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header nav ul {
+        margin: 0;
+        padding: 0;
+        margin-top: 25px;
+    }
+
+    header nav ul li {
+        margin: 0px;
+        margin-left: 15px;
+        font-size: 20px;
+    }
+
+    /* Logo Restaurant */
+
+    header nav .logoHeaderRestaurant {
+        width: 35%;
+        margin-top: 50px;
+    }
+
+    /* Section titre Restaurants */
+
+    section .titreRestaurant {
+        font-size: 30px;
+        max-width: 300px;
+        display: block;
+        margin: auto;
+        margin-top: 60px;
+        text-align: center;
+    }
+
+    /* Section Bannière */
+
+    section .banner img {
+        width: 100%;
+    }
+
+    /* Section Information Restaurants */
+
+    .InformationRestaurant {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+ 
+/* Section Coordonées */
+    
+.InformationRestaurant .coordonées  {
+    margin-left:0px;
+    margin-right:60px;
 }
-
-header nav ul {
-    margin:0;
-    padding:0;
-    margin-top:25px
-   
-}
-
-header nav ul li{
-   margin:0px;
-   margin-left:15px;
-   font-size:25px;
-}
-
-
-/* Logo Restaurant */
-
-header nav .logoHeaderRestaurant  {
-    width: 35%;
-    margin-top: 50px;
-}
+    .InformationRestaurant .coordonées h2 {
+        font-size: 30px;
+        text-align:center;
+    }
+    .InformationRestaurant .coordonées h3 {
+        font-size: 30px;
+        text-align:center;
+    }
+    .InformationRestaurant .coordonées span {
+        font-size: 25px;
+        text-align:center;
+        margin:auto;
+        margin-top:20px;
+    }
 
 
-/* Section titre Restaurants */
+    /* Section Horaire */
 
-section .titreRestaurant{
-    font-size:30px;
-    max-width:300px;
+
+    .InformationRestaurant .coordonées .horaires h2 {
+        font-size: 30px;
+        text-align:center;
+    }
+
+    .InformationRestaurant .coordonées   h3{
+        text-align:center;
+        font-size:25px;
+        color:crimson;
+    }
+  
+    .InformationRestaurant .coordonées .horaires  {
+        display:block;
+        margin:auto;
+        margin:0;
+    }
+  
+    .InformationRestaurant .coordonées .horaires p{
+        display:block;
+        font-size: 25px;
+        margin-left:-50px;
+        text-align:center;
+        margin:0px;
+        padding:0px;
+    }
+
+    /* Section Google Maps */
+
+    .localisationRestaurant iframe{
+        display:block;
+        margin:auto;
+        margin-left:0px;
+        width:100%;
+    }
+
+    
+/* Section adresse */
+  .adresseRestaurant{
     display:block;
-    margin:auto;
-    margin-top:60px;
     text-align:center;
-}
+  }
 
-/* Section Bannière */
-
- section .banner img {
-    width: 100%;
-}
-
-/* Section Information Restaurants */
-
-.InformationRestaurant {
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
+  .adresseRestaurant p{
+    margin:0px;
+    margin-top:15px
 }
 
 }
